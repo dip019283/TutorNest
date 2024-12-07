@@ -1,0 +1,22 @@
+flutter_native_splash:
+  # Platforms to generate splash screens for
+  android: true
+  ios: true
+  web: true
+
+  # Background color of the splash screen
+  color: "#d4e4ed"
+
+  # Path to the splash screen image
+  image: "assets/education_logo.png"
+
+  # Optional: Enable full-screen mode for the splash screen
+  fullscreen: true
+
+  # Android 12-specific settings
+  android_12:
+    color: "#FFFFFF"
+    image: "assets/cropped-education_logo.png"
+    branding: "assets/branding.png"
+
+
